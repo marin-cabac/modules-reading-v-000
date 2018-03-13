@@ -17,4 +17,10 @@ module FancyDance
       "Thank you, thank you. It was a pleasure to dance for you all."
     end
   end
-end 
+  module ClassMethods
+
+    def metadata
+      "This class produces objects that love to dance."
+    end
+  end
+end
